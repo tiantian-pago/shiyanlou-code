@@ -1,4 +1,6 @@
-from flask import Flask
+from flask import Flask,rend_template
+
+app=Flask(__name__)
 
 # 如果访问根目录 '/' ，返回 Index Page
 @app.route('/')
